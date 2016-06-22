@@ -1,14 +1,14 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: localhost
+  host: ec2-54-243-199-161.compute-1.amazonaws.com
   pool: 5
-  username:
-  password:
+  username: qhbdffiunhhbzp
+  password: 5Xe4ZLBfSC5rjkhB2Ch7zNkYlr
 
 development: &development
   <<: *default
-  database: consul_development
+  database: d6utpr5ni02675
 
 # The staging, preproduction and production dbs are only needed
 # for running rake assets:precompile locally before deploying
